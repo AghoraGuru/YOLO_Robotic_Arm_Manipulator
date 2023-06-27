@@ -1,0 +1,79 @@
+[0.643s] Invoking command in '/workspace/build/ur3_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/install/ur3_ros2_gazebo
+[1.838s] -- The C compiler identification is GNU 11.3.0
+[1.838s] -- The CXX compiler identification is GNU 11.3.0
+[1.838s] -- Detecting C compiler ABI info
+[1.839s] -- Detecting C compiler ABI info - done
+[1.839s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.839s] -- Detecting C compile features
+[1.839s] -- Detecting C compile features - done
+[1.839s] -- Detecting CXX compiler ABI info
+[1.839s] -- Detecting CXX compiler ABI info - done
+[1.840s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.840s] -- Detecting CXX compile features
+[1.840s] -- Detecting CXX compile features - done
+[1.840s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.995s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.286s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.539s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.552s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.552s] -- Added test 'lint_cmake' to check CMake code style
+[2.557s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.559s] -- Added test 'xmllint' to check XML markup files
+[2.563s] -- Configuring done
+[2.574s] -- Generating done
+[2.575s] -- Build files have been written to: /workspace/build/ur3_ros2_gazebo
+[2.597s] Invoked command in '/workspace/build/ur3_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/install/ur3_ros2_gazebo
+[2.599s] Invoking command in '/workspace/build/ur3_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake --build /workspace/build/ur3_ros2_gazebo -- -j12 -l12
+[2.692s] Invoked command in '/workspace/build/ur3_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake --build /workspace/build/ur3_ros2_gazebo -- -j12 -l12
+[2.755s] Invoking command in '/workspace/build/ur3_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake --install /workspace/build/ur3_ros2_gazebo
+[2.766s] -- Install configuration: ""
+[2.766s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config
+[2.766s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config/physical_parameters.yaml
+[2.766s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config/default_kinematics.yaml
+[2.767s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config/ur3_controller.yaml
+[2.767s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config/visual_parameters.yaml
+[2.767s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config/joint_limits.yaml
+[2.767s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config/initial_positions.yaml
+[2.768s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/launch
+[2.768s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/launch/ur3_simulation.launch.py
+[2.768s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/urdf
+[2.768s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/urdf/ur3_ros2control.xacro
+[2.769s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/urdf/ur3_transmission.xacro
+[2.769s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/urdf/ur3_macro.urdf.xacro
+[2.769s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/urdf/ur3_common.xacro
+[2.769s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/urdf/ur3.urdf.xacro
+[2.769s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/worlds
+[2.770s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/worlds/ur3.world
+[2.770s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes
+[2.770s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision
+[2.770s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/shoulder.stl
+[2.770s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/forearm.stl
+[2.771s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/wrist1.stl
+[2.771s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/base.stl
+[2.772s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/upperarm.stl
+[2.773s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/wrist2.stl
+[2.774s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/wrist3.stl
+[2.774s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual
+[2.774s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/base.dae
+[2.775s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/upperarm.dae
+[2.780s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/forearm.dae
+[2.782s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/wrist1.dae
+[2.784s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/shoulder.dae
+[2.788s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/wrist3.dae
+[2.788s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/wrist2.dae
+[2.790s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/ur3_ros2_gazebo
+[2.790s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/ur3_ros2_gazebo
+[2.790s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/environment/ament_prefix_path.sh
+[2.790s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/environment/ament_prefix_path.dsv
+[2.791s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/environment/path.sh
+[2.791s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/environment/path.dsv
+[2.791s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/local_setup.bash
+[2.791s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/local_setup.sh
+[2.792s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/local_setup.zsh
+[2.792s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/local_setup.dsv
+[2.792s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/package.dsv
+[2.792s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ament_index/resource_index/packages/ur3_ros2_gazebo
+[2.793s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/cmake/ur3_ros2_gazeboConfig.cmake
+[2.793s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/cmake/ur3_ros2_gazeboConfig-version.cmake
+[2.793s] -- Installing: /workspace/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/package.xml
+[2.801s] Invoked command in '/workspace/build/ur3_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake --install /workspace/build/ur3_ros2_gazebo

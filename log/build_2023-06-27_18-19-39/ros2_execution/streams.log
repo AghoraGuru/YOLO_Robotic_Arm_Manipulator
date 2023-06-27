@@ -1,0 +1,48 @@
+[0.610s] Invoking command in '/workspace/build/ros2_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/ros2_execution -DCMAKE_INSTALL_PREFIX=/workspace/install/ros2_execution
+[0.778s] -- The C compiler identification is GNU 11.3.0
+[0.962s] -- The CXX compiler identification is GNU 11.3.0
+[0.981s] -- Detecting C compiler ABI info
+[1.174s] -- Detecting C compiler ABI info - done
+[1.199s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.200s] -- Detecting C compile features
+[1.202s] -- Detecting C compile features - done
+[1.209s] -- Detecting CXX compiler ABI info
+[1.389s] -- Detecting CXX compiler ABI info - done
+[1.413s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.413s] -- Detecting CXX compile features
+[1.415s] -- Detecting CXX compile features - done
+[1.430s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.830s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.106s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.341s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.343s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.345s] -- Added test 'lint_cmake' to check CMake code style
+[2.348s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.358s] -- Added test 'xmllint' to check XML markup files
+[2.359s] -- Configuring done
+[2.365s] -- Generating done
+[2.365s] -- Build files have been written to: /workspace/build/ros2_execution
+[2.380s] Invoked command in '/workspace/build/ros2_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/ros2_execution -DCMAKE_INSTALL_PREFIX=/workspace/install/ros2_execution
+[2.382s] Invoking command in '/workspace/build/ros2_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake --build /workspace/build/ros2_execution -- -j12 -l12
+[2.493s] Invoked command in '/workspace/build/ros2_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake --build /workspace/build/ros2_execution -- -j12 -l12
+[2.539s] Invoking command in '/workspace/build/ros2_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake --install /workspace/build/ros2_execution
+[2.556s] -- Install configuration: ""
+[2.557s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/scripts
+[2.559s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/scripts/ros2_execution.py
+[2.559s] -- Installing: /workspace/install/ros2_execution/lib/ros2_execution/ros2_execution.py
+[2.560s] -- Installing: /workspace/install/ros2_execution/share/ament_index/resource_index/package_run_dependencies/ros2_execution
+[2.560s] -- Installing: /workspace/install/ros2_execution/share/ament_index/resource_index/parent_prefix_path/ros2_execution
+[2.560s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/environment/ament_prefix_path.sh
+[2.560s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/environment/ament_prefix_path.dsv
+[2.560s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/environment/path.sh
+[2.561s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/environment/path.dsv
+[2.561s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/local_setup.bash
+[2.562s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/local_setup.sh
+[2.562s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/local_setup.zsh
+[2.562s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/local_setup.dsv
+[2.562s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/package.dsv
+[2.562s] -- Installing: /workspace/install/ros2_execution/share/ament_index/resource_index/packages/ros2_execution
+[2.563s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/cmake/ros2_executionConfig.cmake
+[2.563s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/cmake/ros2_executionConfig-version.cmake
+[2.564s] -- Installing: /workspace/install/ros2_execution/share/ros2_execution/package.xml
+[2.572s] Invoked command in '/workspace/build/ros2_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake --install /workspace/build/ros2_execution
